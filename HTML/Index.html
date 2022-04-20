@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="RU">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/Styles.css">
+        <link rel="shortcut icon" href="../ICON/RegIcon.png">
+        <title>Форма регистрации</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="alert-message"></div>
+            <form>
+                <div class="reg-block">
+                    <div class="reg-header">
+                         <h2>РЕГИСТРАЦИЯ</h2>
+                     </div> 
+                     
+                     <div class="reg-body">
+                         <div class="input-group"> 
+                             <div>
+                                 <label for="name">Имя:</label>                      
+                                 <input type="text" id="name" placeholder="Ваше имя">
+                             </div>
+     
+                             <div>
+                                 <label for="last-name">Фамилия: </label>
+                                 <input type="text" id="last-name" placeholder="Фамилия">
+                             </div>
+     
+                             <div>
+                                 <label for="email">Почта: </label>
+                                 <input type="email" id="email" placeholder="Почта">
+                             </div>
+     
+                             <div>
+                                 <label for="password">Пароль: </label>
+                                 <input type="password" id="password" placeholder="Пароль">
+                             </div>
+     
+                             <div>
+                                 <label for="password">Повторите пароль: </label>
+                                 <input type="password" id="password-replace" placeholder="Повторите пароль">
+                             </div>    
+                             <button type="submit" id="button">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+                         </div>
+                     </div>
+                 </div>
+            </form>
+        </div>
+        <noscript>Включите JavaScript!</noscript>
+        <script src="../TS/JS/Index.js"></script>
+    </body>
+</html>

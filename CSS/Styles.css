@@ -1,0 +1,107 @@
+/* Подключение шрифта Lobster */
+
+@font-face {
+    font-family: Lobster;
+    src: url("../FONT/Lobster/Lobster-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Общие стили для всего документа */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Lobster; /* Использование шрифта Lobster для всего документа */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../IMG/HishenaInForest.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#alert-message {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    background-color: yellow;
+    opacity: 0.9;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    display: none;
+}
+
+.reg-block {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.reg-header h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.reg-body {
+    background-color: white;
+    height: 570px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Стиль для отступа label от input */
+
+.input-group div {
+    margin-top: 10px; 
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 20px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid orange;
+}
+
+.input-group input:focus {
+    border-bottom: 2px solid orange;
+}
+
+.reg-body button {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 55px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.reg-body button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all .5s ease;
+}
+
+.reg-body button:not(:hover) {
+    transition: all .5s ease;
+}

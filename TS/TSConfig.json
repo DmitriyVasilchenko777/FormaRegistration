@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "watch": true,
+        "noEmitOnError": true,
+        "outFile": "./JS/Index.js",
+        "outDir": "./JS"
+    },
+
+    "files": [
+        "Index.ts"
+    ]
+}
